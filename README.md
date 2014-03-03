@@ -3,8 +3,8 @@
 An OpenShift QuickStart for Ruby / Sinatra / Redis.
 
 ## Thanks
-This QuickStart is based on the [OpenShift Sinatra Example](https://github.com/openshift/sinatra-example).
-To add Redis to our OpenShift Gear, We use the [Redis OpenShift Cart](https://github.com/smarterclayton/openshift-redis-cart).
+* This QuickStart is based on the [OpenShift Sinatra Example](https://github.com/openshift/sinatra-example).
+* To add Redis to our OpenShift Gear, we use the [Redis OpenShift Cart](https://github.com/smarterclayton/openshift-redis-cart).
 
 ## Introduction
 This readme takes you from absolute zero (a plain-vanilla OS X installation) to having your first OpenShift application up and running. If your system is set up for OpenShift or for Ruby development in OS X, you'll be able to skip some or all of these steps.
