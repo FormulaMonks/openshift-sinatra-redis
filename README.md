@@ -29,26 +29,3 @@ rhc add-cartridge http://cartreflect-claytondev.rhcloud.com/reflect?github=smart
 
 The "rhc app create" command should have output the URL to access your application on OpenShift.
 
-
-
-
-## Running this application locally
-
-Before running any of these examples, you should run the below command to make sure that you have the correct ruby gems installed
-
-```
-  cd citrusbytesinatra
-  bundle install
-```
-
-You will also need to have Redis installed and running locally. On OS X, I installed it with "brew install redis". That command gives examples on how to start the redis server.
-
-You'll need to set the following environment variables:
-* OPENSHIFT_REDIS_HOST
-* OPENSHIFT_REDIS_PORT
-* REDIS_PASSWORD
-
-To run this application locally, cd into the citrusbyte-sinatra directory that you cloned and run
-
-    bundle exec ruby -S rackup -w config.ru
-
