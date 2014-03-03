@@ -25,7 +25,7 @@ rbenv rehash
 ```
 rhc app create APPNAME ruby-1.9 --from-code https://github.com/citrusbyte/openshift-sinatra-redis.git
 rhc add-cartridge http://cartreflect-claytondev.rhcloud.com/reflect?github=smarterclayton/openshift-redis-cart
-ib```
+```
 
 The "rhc app create" command should have output the URL to access your application on OpenShift.
 
